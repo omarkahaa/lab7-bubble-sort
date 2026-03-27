@@ -1,5 +1,3 @@
-
-```md
 # REPORT
 
 ## First Impressions
