@@ -1,40 +1,44 @@
+```md
 # REPORT
 
 ## First Impressions
-At first, the project looked simple. After starting it, I realized that even a small word guessing game needs careful handling of state, input validation, and game flow. What looked easy at first became a good exercise in structuring a program clearly.
 
-Another important part of the project was using Copilot in a controlled way. I understood quickly that the goal was not to let it generate everything, but to use it step by step and stay in control of the design.
+At first, Bubble Sort looked very simple because the algorithm itself is short.  
+Once I started turning it into a visualization, I understood that the real difficulty was not only sorting the list, but also displaying the process clearly in the terminal while keeping the code readable.
 
-## Key Learnings
-Through this project, I learned how to structure a small console game with:
-- a clear game state
-- input normalization and validation
-- guessed-letter tracking
-- win and lose conditions
-- return to the mode menu after each game
-- helper functions with clear roles
+## What I Learned
 
-I also learned that thinking about the state of the application before coding helps a lot. Listing variables, rules, and possible bugs early made the implementation easier and reduced confusion later.
+This lab helped me better understand:
 
-## Copilot Prompting Experience
-Copilot was most useful when I used it with focused prompts. It helped me:
-- build the project in small steps
-- think about app states and variables
-- identify rules and invariants
-- review structure and reliability
-- reflect on possible bugs and improvements
+- how Bubble Sort compares adjacent values
+- how swaps gradually move larger values to the right
+- how to represent an algorithm visually instead of only printing final results
+- how to structure a small Python program with clearer responsibilities
+- how type hints improve readability
 
-The most useful prompts were the specific ones. Broad prompts were less helpful because they often made the solution more complicated than necessary.
+## Terminal Visualization
 
-## Limitations and Reliability
-Copilot was helpful, but it still needed supervision. Some suggestions were too broad or too complex for the level and scope of this assignment. Because of that, I used it more as a support tool for ideas, structure, and review than as something that should write the whole solution by itself.
+The most important improvement was moving from a basic pass-by-pass print to a real terminal visualization with in-place redraw.  
+This made the algorithm easier to follow because I could see comparisons happen step by step.
 
-This was especially important for keeping the code simple and reliable. I wanted the final version to have clear separation between logic, input, display, and mode handling.
+## Copilot Use
+
+Copilot was useful as a support tool for:
+
+- explaining Bubble Sort
+- suggesting structure ideas
+- reviewing parts of the implementation
+- helping improve documentation
+
+It was most useful when prompts were specific.  
+Broad prompts were less helpful because they tended to produce code that was more complex than necessary.
+
+## Code Quality
+
+A useful lesson from this lab was that even a small project can look unprofessional if the repository is not cleaned up before submission.  
+Updating the README, keeping the report relevant to the actual lab, and using type hints made the project look more complete and more serious.
 
 ## Overall Reflection
-This project showed me that AI can be useful for support, review, and structured thinking, but it does not replace understanding the program. The most important part was still making design decisions, checking the logic, and making sure the final code matched the assignment requirements.
 
-I felt more confident when I used Copilot in small stages instead of depending on it for everything at once. For future projects, I would use it the same way: as a tool for brainstorming, reviewing, debugging ideas, and improving structure, while keeping control of the final implementation.
-
-The final version also includes the auto play update, which made me think more carefully about reusing the same game logic for both manual play and automatic play.
-
+This project showed me that understanding the algorithm is different from visualizing it well.  
+The final result is stronger because it is not just a sorting script anymore: it is a small educational tool that demonstrates how Bubble Sort works in the terminal.
